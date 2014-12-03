@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="true">
+    <gradient
+    android:startColor="#00000000"
+    android:endColor="#00000000"
+    android:centerColor="#00000000"
+    android:angle="180" />
+    <corners android:radius="10dp" />
+    <stroke
+    android:width="2dp"
+    android:color="#66ffffff" />
+</shape>
+-->
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/menu_bg"
+    android:antialias="true"
+    android:dither="true"
+    android:filter="true"
+    android:alpha="0.1"
+    android:gravity="center|fill" 
+     />

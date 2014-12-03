@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro">Press the button to speak!</string>
+    <string name="colors">Color Options: Red | Blue | Yellow | Green | Cyan | Magenta</string>
+    <string name="app_name">Little Learner</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="help">Help</string>
+    <string name="speech">Press to speak</string>
+    <string name="speechnumber">Speak for Numbers</string>
+    <string name="speechalphabet">Speak for Alphabets</string>
+    <string name="speechshape">Speak for Shape</string>
+    <string name="speechcolor">Speak for Color</string>
+    <string name="word_intro">Options:</string>
+    <string name="action_settings">something here</string>
+    
+    <string name="start_new">New</string>
+	<string name="brush">Brush</string>
+	<string name="erase">Erase</string>
+	<string name="save">Save</string>
+	<string name="paint">Paint</string>
+</resources>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/words_bg"
+    android:paddingBottom="5dp" >
+    <!--  android:background="#E8F5F4" -->
+    
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/exit" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/exit_btn"
+        android:layout_alignBottom="@+id/exit_btn"
+        android:layout_alignParentRight="true"
+        android:text="@string/start" />
+    
+    <Button
+        android:id="@+id/help_btn"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/help" />
+
+</RelativeLayout>
